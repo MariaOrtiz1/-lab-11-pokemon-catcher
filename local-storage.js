@@ -52,3 +52,14 @@ export function encounterPokemon(selectedPokemonId) {
 
     setPokedex(pokedex);
 }
+
+export function totalPokemonCatched() {
+// always good to set the total to 0 in order to have a starting point to add the numbers
+    let total = 0;
+    const pokedex = getPokedex();
+// looping to search the array of pokemon that's in out local storage in order to add up how many captured pokemon we have
+    for (let item of pokedex) {
+        total += item.captured;
+    }
+    return total;
+}

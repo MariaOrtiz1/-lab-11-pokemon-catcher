@@ -7,6 +7,7 @@ export const pokemonData = [
         type: ['ghost', 'poison'],
         img: 'gengar.png',
         description: 'On the night of a full moon, if shadows move on their own and laugh, it must be Gengars doing.',
+        gen: 1,
     },
     {
         id: 2,
@@ -15,14 +16,16 @@ export const pokemonData = [
         type: ['normal'],
         img: 'buneary.png',
         description: 'When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.',
+        gen: 4,
     },
     {
         id: 3,
         pkmnId: 869,
-        name: 'Alcreamie',
+        name: 'Alcremie',
         type: ['fairy'],
-        img: 'alcreamie.png',
+        img: 'alcremie.png',
         description: 'When it trusts a Trainer, it will treat them to berries it has decorated with cream.',
+        gen: 8,
     },
     {
         id: 4,
@@ -31,6 +34,7 @@ export const pokemonData = [
         type: ['fighting', 'steel'],
         img: 'lucario.png',
         description: 'It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.',
+        gen: 4,
     },
     {
         id: 5,
@@ -39,6 +43,7 @@ export const pokemonData = [
         type: ['steel', 'psychic'],
         img: 'metagross.png',
         description: 'Metagross is the result of the fusion of two Metang. This Pokémon defeats its opponents through use of its supercomputer-level brain.',
+        gen: 3,
     },
     {
         id: 6,
@@ -47,6 +52,7 @@ export const pokemonData = [
         type: ['steel', 'fairy'],
         img: 'klefki.png',
         description: 'This Pokémon is constantly collecting keys. Entrust a Klefki with important keys, and the Pokémon will protect them no matter what.',
+        gen: 6,
     },
     {
         id: 7,
@@ -55,6 +61,7 @@ export const pokemonData = [
         type: ['water'],
         img: 'blastoise.png',
         description: 'The rocket cannons on its shell fire jets of water capable of punching holes through thick steel.',
+        gen: 1,
     },
     {
         id: 8,
@@ -63,6 +70,7 @@ export const pokemonData = [
         type: ['electric'],
         img: 'raichu.png',
         description: 'If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere.',
+        gen: 1,
     },
     {
         id: 9,
@@ -71,6 +79,7 @@ export const pokemonData = [
         type: ['fire'],
         img: 'ninetales.png',
         description: 'It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.',
+        gen: 1,
     },
     {
         id: 10,
@@ -79,6 +88,7 @@ export const pokemonData = [
         type: ['poison', 'fighting'],
         img: 'croagunk.png',
         description: 'It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab.',
+        gen: 4,
     },
     {
         id: 11,
@@ -87,6 +97,7 @@ export const pokemonData = [
         type: ['grass', 'ghost'],
         img: 'decidueye.png',
         description: 'In a tenth of a second, it can nock and fire an arrow quill, piercing an opponents weak point before they notice what is happening.',
+        gen: 7,
     },
     {
         id: 12,
@@ -95,6 +106,7 @@ export const pokemonData = [
         type: ['fire'],
         img: 'typhlosion.png',
         description: 'Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.',
+        gen: 2,
     },
     {
         id: 13,
@@ -103,6 +115,7 @@ export const pokemonData = [
         type: ['normal'],
         img: 'aipom.png',
         description: 'It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.',
+        gen: 2,
     },
     {
         id: 14,
@@ -111,6 +124,7 @@ export const pokemonData = [
         type: ['dark'],
         img: 'absol.png',
         description: 'Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.',
+        gen: 3,
     },
     {
         id: 15,
@@ -119,6 +133,7 @@ export const pokemonData = [
         type: ['ice'],
         img: 'glaceon.png',
         description: 'Any who become captivated by the beauty of the snowfall that Glaceon creates will be frozen before they know it.',
+        gen: 4,
     },
     {
         id: 16,
@@ -127,5 +142,15 @@ export const pokemonData = [
         type: ['water', 'ground'],
         img: 'quagsire.png',
         description: 'Its body is always slimy. It often bangs its head on the river bottom as it swims but seems not to care.',
+        gen: 2,
     },
+    {
+        id: 16,
+        pkmnId: 387,
+        name: 'Turtwig',
+        type: ['grass'],
+        img: 'turtwig.png',
+        description: 'It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.',
+        gen: 4,
+    }
 ];
