@@ -1,3 +1,4 @@
+// This is just the data of the pokemon!
 export const pokemonData = [
     {
         id: 1,

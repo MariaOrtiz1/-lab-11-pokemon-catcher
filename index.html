@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Pokedex</title>
 </head>
 
 <body>
-
+    <span>
+        <input type="radio" id="poke-button-1" name="pokemon" />
+        <img id="poke-img-1" class="poke" height="300px" width="300px"/>
+    </span>
+    <span>
+        <input type="radio" id="poke-button-2" name="pokemon" />
+        <img id="poke-img-2" class="poke" height="300px" width="300px"/>
+    </span>
+    <span>
+        <input type="radio" id="poke-button-3" name="pokemon" />
+        <img id="poke-img-3" class="poke" height="300px" width="300px"/>
+    </span>
+    <br>
+    
+    <button id="catch">Catch That Pokemon!</button>
 </body>
+
+<script type="module" src="./app.js"></script>
+<script type="module" src="./local-storage.js"></script>
+<script type="module" src="utils.js"></script>
 
 </html>
