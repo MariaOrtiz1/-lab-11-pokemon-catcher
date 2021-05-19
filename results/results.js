@@ -1,5 +1,5 @@
 import { mungeNames, mungeCaptured, mungeEncountered, mungeGens } from '../data-utils.js';
-import { getPokedex, setPokedex } from '../local-storage.js';
+import { getPokedex } from '../local-storage.js';
 const resetButton = document.querySelector('#release-pokemon');
 const pokedex = getPokedex();
 
