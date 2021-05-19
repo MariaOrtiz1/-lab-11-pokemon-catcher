@@ -1,5 +1,5 @@
-import { findById } from './utils';
-import pokemonData from './data';
+import { findById } from './utils.js';
+import { pokemonData } from './data.js';
 
 export function mungeCaptured(exampleArray) {
     // results will always start off as an empty array!
@@ -7,7 +7,8 @@ export function mungeCaptured(exampleArray) {
 // loops through all of the pokemon and searches for the right id
     for (let item of exampleArray) {
 // When the right id is found, it is pushed into the empty array, this is function is for the capture id!
-        results.push(item.captured);
+        const mungedDataCaptured = findById(exampleArray, item.id);
+        results.push(mungedDataCaptured.captured);
     }
     return results; 
 }
@@ -19,7 +20,8 @@ export function mungeEncountered(exampleArray) {
 // loops through all of the pokemon and searches for the right id
     for (let item of exampleArray) {
 // When the right id is found, it is pushed into the empty array, this is function is for the enecountered id!
-        results.push(item.encountered);
+        const mungedDataEncountered = findById(exampleArray, item.id);
+        results.push(mungedDataEncountered);
     }
     return results; 
 }
