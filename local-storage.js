@@ -27,7 +27,7 @@ export function capturePokemon(selectedPokemonId) {
 // comapres the selectedPokemonId that is given by clicking one of the radio buttons vs the id within the data 
     const matchingPokemon = findById(pokedex, selectedPokemonId);
 // if the two ids match then we capture the pokemon and increase the value of the capture attribute plus 1
-    matchingPokemon.capture++;
+    matchingPokemon.captured++;
 
     setPokedex(pokedex);
 }
