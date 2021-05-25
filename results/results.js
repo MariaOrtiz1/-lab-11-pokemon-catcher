@@ -1,4 +1,4 @@
-import { mungeNames, mungeCaptured, mungeEncountered, mungeGens } from '../data-utils.js';
+import { mungeNames, mungeCaptured, mungeEncountered } from '../data-utils.js';
 import { getPokedex } from '../local-storage.js';
 const resetButton = document.querySelector('#release-pokemon');
 const pokedex = getPokedex();
@@ -8,7 +8,6 @@ let ctx = document.getElementById('pokemonChart').getContext('2d');
 const names = mungeNames(pokedex);
 const capturedData = mungeCaptured(pokedex);
 const encounteredData = mungeEncountered(pokedex);
-const gens = mungeGens(pokedex);
 
 let pokemonChart = new Chart(ctx, {
     type: 'bar',

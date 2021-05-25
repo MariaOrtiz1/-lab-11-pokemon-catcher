@@ -21,8 +21,9 @@ button.addEventListener('click', () => {
 
     const totalCatched = totalPokemonCatched();
 
-    if (totalCatched === 10) {
-        window.location.replace('./results/index.html');
+
+    if (totalCatched === 5) {
+        window.location.replace('../results/index.html');
     } else {
         renderThreePokemon();
     }
